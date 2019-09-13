@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:padding="8dp">
+        <ImageView
+            android:id="@+id/img_detail_item_photo"
+            android:layout_width="180dp"
+            android:layout_height="220dp"
+            android:layout_marginBottom="4dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/umbul_ponggok" />
+        <TextView
+            android:id="@+id/tv_detail_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_toEndOf="@id/img_detail_item_photo"
+            android:layout_toRightOf="@id/img_detail_item_photo"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:text="Arung Jeram Sungai Tubing Pusur" />
+        <TextView
+            android:id="@+id/tv_item_lokasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_detail_item_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="1dp"
+            android:layout_toEndOf="@id/img_detail_item_photo"
+            android:layout_toRightOf="@id/img_detail_item_photo"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:text="@string/lokasi" />
+        <TextView
+            android:id="@+id/tv_detail_item_lokasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_item_lokasi"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="10sp"
+            android:layout_toEndOf="@id/img_detail_item_photo"
+            android:layout_toRightOf="@id/img_detail_item_photo"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:text="Jalan Keprabon, Polanharjo" />
+        <TextView
+            android:id="@+id/tv_item_harga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_detail_item_lokasi"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="1dp"
+            android:layout_toEndOf="@id/img_detail_item_photo"
+            android:layout_toRightOf="@id/img_detail_item_photo"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:text="@string/harga" />
+        <TextView
+            android:id="@+id/tv_detail_item_harga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_item_harga"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="1dp"
+            android:layout_toEndOf="@id/img_detail_item_photo"
+            android:layout_toRightOf="@id/img_detail_item_photo"
+            android:textColor="@android:color/black"
+            android:text="Rp. 40.000 - Rp. 60.000" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_item_operasional"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:lineSpacingMultiplier="1"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="Jam Operasional :"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:id="@+id/tv_detail_item_operasional"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:lineSpacingMultiplier="1"
+        android:text="Setiap hari pukul 09.00 - 15.00"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:id="@+id/tv_item_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:lineSpacingMultiplier="1"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="Deskripsi :"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:id="@+id/tv_detail_item_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:lineSpacingMultiplier="1"
+        android:text="Wisata arung jeram yang satu ini memudahkan pengunjung untuk menelusuri aliran Sungai Tubing Pusur dengan gelombang yang tidak terlalu deras. Berbeda dengan rafting di arung jeram, wisata yang satu ini menggunakan ban bagian dalam mobil atau truck secara terpisah bukan kelompok. Sensasi andrenalin yang ditawarkan juga sama menariknya dengan rafting arung jeram, hanya saja di Arung Jeram Sungai Tubing Pusur ini memiliki harga yang lebih murah dengan fasilitas yang setara dengan rafting arung jeram."
+        android:textColor="@android:color/black" />
+</LinearLayout>

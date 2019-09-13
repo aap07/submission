@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Klaten Explore</string>
+    <string name="wisata_nama">Nama Wisata</string>
+    <string name="wisata_alamat">Alamat Wisata</string>
+    <string name="wisata_operasional">Operasional Wisata</string>
+    <string name="nama">Antonius Adi Pratomo</string>
+    <string name="email">antoniusadipratomo@yahoo.com</string>
+    <string name="lokasi">Lokasi :</string>
+    <string name="harga">Harga :</string>
+</resources>
